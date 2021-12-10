@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+
+{% block content %}
+
+<div class="essay-content">
+    <div class="essay-title"> <center><h1 title="Essay about computer">Computer</h1></center> </div>
+    <div class="index">
+        <img class="main_img" src="{{url_for('static', filename = 'image/chalesbabbage.jpg')}}" alt="charles Babbage" width="200" height="200">
+        <fieldset>
+            <legend>INDEX ::</legend>
+            <div class="index-content">
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t1">Introduction</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t2">Computer Origin</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t3">Computer Uses</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t5">Conclusion</a><br>
+            </div>
+        </fieldset>
+    </div> <br>
+    <div class="essay-body">
+        <h2 id="t1">Introduction:</h2><br>
+        <p>&emsp;&emsp;The development of the computer is responsible for what is now called the computer era. Its bizarre functions are dazzling to our thinking. COMPUTER full form or meaning is Common Operating Machine Purposely used for Technological and Educational research. In this article, we will discuss about its achivements in the world. </p> <br>
+        <h2 id="t2">Computer origin:</h2><br>
+        <p>&emsp;&emsp;The earliest date of the computer was 500 BC.
+            <img class="main_img" src="{{url_for('static', filename = 'image/firstcomputer.jpg')}}" alt="first computer" width="350" height="200">
+            Then an abacus was invented to gather small thoughts. In 650 AD the Indians invented the method of using zero. A calculator for addition, subtraction, multiplication and division was invented in 1623 by Siddi, a German. In 1820, Charles Babbage invented the 20-digit calculator. Initially the computer was powered by steam and electricity. The computer, which was initially made up of vacuum tubes and governing rear modifications, was large enough to fill a huge room. Today these have shrunk to watch size. It highlights the immense development of science. </p> <br>
+        <h2 id="t3">computer uses:</h2><br>
+        <p>&emsp;&emsp;Computers are widely used in a variety of fields,
+            <img class="main_img" src="{{url_for('static', filename = 'image/compuse.png')}}" alt="computer uses" width="350" height="200">
+            from ordinary office work to printing, medicine, telecommunications, radio broadcasting, television broadcasting, information technology, commerce, transportation, banking, education, agriculture, film, and military defense. We can know the movements of the world as if we were in a place sitting in front of a computer. Supercomputers have been invented today that work millions of times faster than the human brain. </p>
+        <p>&emsp;&emsp;Today, with the advent of computers, e-commerce has made it possible to read books in libraries around the world.</p> <br>
+        <h2 id="t4">conclusion:</h2><br>
+        <p>&emsp;&emsp;The computer has shrunk the vast world and brought everything into one small screen. In a few more years the computer will come to be used by everyone like normal radio. After that, the five senses will not work. "Computers anywhere!" The level of. Because that much is to gain prominence in the computer world so we will all gain the ability to operate the computer. Let us live without worries. </p><br>
+        <center><q>The computer was born to solve problems that did not exist before.</q></center>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %} Global Warming {% endblock %}
+
+{% block content %}
+
+<div class="essay-content">
+    <div class="essay-title"> <center><h1 title="Essay about globalwarming">GLOBAL WARMING</h1></center> </div>
+    <div class="index">
+        <img class="main_img" src="{{url_for('static', filename = 'image/globalwarming.jpg')}}" alt="global warming" width="400" height="250">
+        <fieldset>
+            <legend>INDEX ::</legend>
+            <div class="index-content">
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t1">Introduction</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t2">Reasons for the rise of temperature</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t3">Effects of Global Warming</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t4">Promising Researches</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t5">Conclusion</a><br>
+            </div>
+        </fieldset>
+    </div> <br>
+    <div class="essay-body"> 
+        <h2 id="t1">Introduction:</h2><br>
+        <p>&emsp;&emsp; Earth is the only planet which is unique and special in our solar system. Because here are the basics air and drinking water just to survive are available. But nowadays the temperature of earth increases gradually which affects the human life. Let we discuss about the Global warmin in this essay. </p> <br>
+        <img class="main_img" src="{{url_for('static', filename = 'image/resonsofgw.png')}}" alt="resons for global warming" width="350" height="300">
+        <h2 id="t2">Reasons for the rise of temperature:</h2><br>
+        <p>&emsp;&emsp;The factors like Green cottage effect, Industrilaization use of coal, petrol, gas utility and industrial use increases the CO<sub>2</sub> and Green houses gases which is the reasonn for global warming. Before the industrialization the carbon content is 280 PPM which is now increased to 379 PPM. American Environmental Security Camp has warned that in the yeaar 2100 the carbon content raises to 500 PPM.</p> <br>
+        <h2 id="t3">Effects of Global Warming:</h2><br>
+        <p>&emsp;&emsp;Due to the raise of temperature the climate changes is evolving. The melting of ice in the polar regions has caused sea levels to raise. If this condition remains same then many cities will be sumerged in the sea at the end of this centuary. Global warming the reason for acid rain in certain places.</p> <br>
+        <h2 id="t4">Promising Researches:</h2><br>
+        <img class="main_img" src="{{url_for('static', filename = 'image/researchofgw.jpg')}}" alt="reasearch on global warming" width="350" height="200">
+        <p>&emsp;&emsp;Several researches are taken over the world wide to reduce the carbon conten which is the main reason for global warming. The sceintst of California University designed a solar energy device that converts CO<sub>2</sub> into a fuel even Carbon monoxide is produced by this process is used for making soap and plastic preparationn process. Newzland Scientists had find out that by using a one type of bacteria CO<sub>2</sub> is converted into liquified fuels. And also we have finout that if CO<sub>2</sub> is stored safely inside the rock or underground by chemical reaction CO<sub>2</sub> is changed into iron and Magnesium.</p><br>
+        <h2 id="t5">Conclusion:</h2><br>
+        <img class="main_img" src="{{url_for('static', filename = 'image/protestofgw.jpg')}}" alt="protest for global warming" width="350" height="200">
+        <p>&emsp;&emsp;Literature has figured the planet earth as the mother and peak of patience. Out mother is carrying us only for ten months but out planet carry us in all time even when we are alive or dead. Hece we have to respect our planet and we have to take steps to protect our planet that is our responsibility. We should spread awareness about global warming among the people. <br>
+            &emsp;&emsp;" Who every good have killed, may yet destruction flee; Who 'benefit' has killed, that man shall ne'er 'scape free! " - according to these lines of Thiruvalluvar, he who has killed every virtue may yet escape; there is no escape for him who has killed a benefit.</p> <br>
+        <center><q>Protect the environment! Live Healthly!</q></center>
+    </div>
+</div>
+
+{% endblock content %}

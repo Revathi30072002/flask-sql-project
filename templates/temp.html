@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporary</title>
+    <style>
+
+section .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+section .column {
+    width:330px;
+    display:inline-block;
+    margin-left:50px;
+    margin-top:50px
+}
+section .column .card {
+  position:relative;
+  overflow:hidden;
+  width:350px;
+  margin:0 auto;
+  background:#333;
+  padding:20px;
+  box-sizing:border-box;
+  text-align:center;
+  box-shadow:0 10px 40px rgba(0,0,0,.5)
+}
+section .column .card .layer {
+  z-index:1;
+  position:absolute;
+  top:calc(100% - 2px);
+  height:100%;
+  width:100%;
+  left:0;
+  background:linear-gradient(to left , #2ecc71, #3498db);
+  transition:0.5s;
+  
+}
+section .column .card .card-body {
+  z-index:2; 
+  position:relative;
+}
+section .column .card:hover  .layer{
+  top:0;
+}
+section .column .card .card-body p {
+  font-size:14px;
+  line-height:24px;
+  color:#fff;
+  
+}
+section .column .card .card-body .image {
+  width:100px; height:100px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+  border: 4px solid white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  
+}
+section .column .card .content{
+font-size:18px;
+color:white;
+}
+section .column .card .card-body{
+font-size:18px;
+color:rgb(187, 8, 187);
+  transition:0.5s;
+}
+section .column .card:hover .card-body{
+  color:white;
+  position:relative
+}
+section .column .card:hover .card-body h5{
+  color:black;
+  position:relative
+}
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="cardcont row">
+          <div class="column">
+            <div class="card"  >
+                <div class="layer">
+      
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Definition Essay</h5>
+                <p class="card-text">&emsp;When you are writing a definition essay, you take a term or an idea and write about what it is. Often, definitions are combined with classification or other forms of organization in the essay. You need to give a careful definition of the key term before going on to discuss different types or examples.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card"  >
+                <div class="layer">
+      
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Classification Essay</h5>
+                <p class="card-text">&emsp;In a classification essay, you separate things or ideas into specific things or ideas into specific categories and discuss each of them.<br>&emsp;You organize the essay by defining each classification and by defining each classification and by giving examples of each type.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card"  >
+                <div class="layer">
+      
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Descriptive Essay</h5>
+                <p class="card-text">&emsp;In a description essay, you write aboout what a person, place or thing is like. You organize the essay by describing different parts or aspect of the main subject. <br>&emsp; The students use sensory information to enable readers to use their five senses to understand the topic of the essay.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardcont row ">
+          <div class="column">
+            <div class="card"  >
+                <div class="layer">
+      
+                </div>
+              <div class="card-body">
+                  <h5 class="card-title">Sequence Essay</h5>
+                <p class="card-text">&emsp;In a sequence essay, you are writing to describe a series of events or a process in some sort of order. Usually, this order is based on time. You organize the essay by writing about each step of the process in the order it occurred.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+              <div class="card"  >
+                <div class="layer">
+      
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Explanation Essay</h5>
+                  <p class="card-text">&emsp;In an explanation essay, you explain how or why something happens or has happened. You need to explain different causes and effects. You should organize the essay by explaing each individual casue of effect.</p>
+                </div>
+              </div>
+          </div>
+          <div class="column">
+              <div class="card"  >
+                <div class="layer">
+      
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Evaluation Essay</h5>
+                  <p class="card-text">&emsp;In an evaluation essay, you make judgmetns about people, ideas, and possible actions. You make your evaluation based on certain criteria that you develop, Organize the essay by discussing the criteria you used to make your judgment.</p>
+                </div>
+              </div>
+          </div>
+        </div> 
+    </section>
+</body>
+</html>

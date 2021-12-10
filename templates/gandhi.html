@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block title %} Essay - Mahatma Gandhi {% endblock %}
+
+{% block content %}
+
+<div class="essay-content">
+    <div class="essay-title"> <center><h1  title="Essay about Gandhi">MAHATMA GANDHI</h1></center> </div><br>
+    <div class="index">
+        <img class="main_img" src="{{url_for('static', filename = 'image/gandhi.jpg')}}" alt="gandhi" width="300" height="300">
+        <fieldset>
+            <legend>INDEX ::</legend>        
+            <div class="index-content"> 
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t1">Introduction</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t2">Childhood and Education</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t3">Higher Education</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t4">Experience in South Africa</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t5">Great Party Leader</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t6">Leader of Wars</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t7">Freedom fighter</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t8">Mahatma</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t9">Conclusion</a><br>
+            </div>
+        </fieldset>
+    </div> <br>
+    <div class="essay-body">
+        <h2 id="t1">Introduction:</h2><br>
+        <img class="main_img" src="{{url_for('static', filename = 'image/gandhiparents.jpg')}}" alt="gandhi's_parents" width="250" height="200">
+        <p>&emsp;&emsp;There are dozens of people who tried to break off the slave chain of India. But Mahatma Gandhi was the one who united all these people and lead them in a moral way to gain freedom for our nation. For our mother nation he even forgot his own family and became the <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="blank" style="color: rgb(50, 201, 186);">'FATHER OF OUR NATION'</a> . Lets know something about him in this essay.</p><br>
+        <h2 id="t2">Childhood and Education:</h2><br>
+        <img class="main_img" src="{{url_for('static', filename = 'image/signature.png')}}" alt="signature" style="background-color: white;">
+        <p>&emsp;&emsp;In A.D. 1869 October 2nd at Porbandar in Gujarat MohanDas Karamchand Gandhi was born for Karamchand Gandhi and Puthili Bai. He finished his primary education at his city and his patriot and fasting from his mother. At his age of 13 he married Kasthuri Bai.</p><br>
+        <h2 id="t3">Higher Education:</h2><br>
+        <p>&emsp;&emsp;He wished to study law at London. His family stopped him because travelling in ship will be a disgrace to his family. But he promised his mother to always be in righteous way and be an honest person and left for London. As he promised he behaved and returned with his attorney degree. <br> 
+        <img class="main_img" src="{{url_for('static', filename = 'image/attorney.jpg')}}" alt="attorney gandhi" width="250" height="200">
+        &emsp; <i> "I had learned the true practice of law; I had learnt to find out the better side of human nature and to enter men's hearts. I realized that true function of a lawyer was to unite parties riven asunder. The lesson was so indelibly burnt into me that a large part of time during the 20 years of my practice as lawyer was occupied in bringing about private compromise of hundreds of cases. I lost nothing thereby – not even money, certainly not my soul." – Mahatma Gandhi </i></p><br>
+        <h2 id="t4">Experience in South Africa:</h2><br>
+        <p>&emsp;&emsp;He went to South Africa for his work as an attorney. He felt sad for the Indians who immigrated there. He fought for their rights. He created a magazine called “Indian Opinion” 
+        <img class="main_img" src="{{url_for('static', filename = 'image/magazine.jpg')}}" alt="indian opinion" width="250" height="150">
+        and event argued in court for Indians. Thus after spending 21 years in South Africa, he realized the feelings of slaves and their endurence in life.</p><br>
+        <h2 id="t5">Great Party Leader:</h2><br>
+        <p>&emsp;&emsp;At that time, Indian Congress Party was fighting for freedom. He joined this party and fight with others for our freedom. He fought in Farmer Rebellion, Factory Labour Rights Rebellion and gained victory for those people. After that he became the leader of the great congress party.</p><br>
+        <h2 id="t6">Leader of Wars:</h2><br>
+        <img class="main_img" src="{{url_for('static', filename = 'image/freedomfighter.jpg')}}" alt="freedomfighter" width="250" height="200">
+        <p>&emsp;&emsp;He proved that in this world, without knife and without shedding a single drop of blood we can get victory. He led Non-cooperation movement, Sudeshi Movement, Salt Satyagraha, Rowlett Satyagraha, get out white movement and so on. He attracted the Indian people with his magnetic eyes and his simplicity appearance. He spread the fire of freedom all over the country.</p><br>
+        <h2 id="t7">Freedom fighter:</h2><br>
+        <p>&emsp;&emsp;Due to his wonderful leadership, he united nation's great leaders and public to fight for freedom. He made the british government to lower their heads in front of us and made them run out of our country. Due to his endlessvhardwork, we got freedom on 1947, August 15th.</p><br>
+        <h2 id="t8">Mahatma:</h2><br>
+        <p>&emsp;&emsp;Gandhiji was regarded as good human being all over the world. Rabindranath Tagore was the one who called him 'MAHATMA'
+            <img class="main_img" src="{{url_for('static', filename = 'image/rt&gd.jpg')}}" alt="Rabindranath Tagore & gandhi" width="250" height="150"> for the first time.Later that name remained unchanged. Eventhough many leaders opposed gandhiji during politics, but they accepted his as their inspirational leader in their heart. To admire his morality, his birthday was celebrated as 'World Nonviolence Day'.</p><br>
+        <h2 id="t9">Conclusion:</h2><br>
+        <p>&emsp;&emsp;Without any pomp, without any weapon, due to spritual strength, due to his mother nation's people strength he suffocated the british government and made them turn around. But a coward on 1948, January 30th shot him dead and made him fall on earth. Alas! Thus even his last drop of blood was shedded for India.
+           <br>&emsp;<img class="main_img" src="{{url_for('static', filename = 'image/deathofmahatma.jpg')}}" alt="death of mahatma" width="250" height="150">
+           The England Prime Minister, Sir Vincent Churchil said, "In slave India we protected him for 60 years but you can't even protect him after gaining freedom for 6 months."What can I say but to call Gandhi 'Mahatma', who said not to harm even the one who killed himself?</p><br>
+           <center><q>Longlive the fame of Mahatma!</q></center>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %} Globalization {% endblock %}
+
+{% block content %}
+
+<div class="essay-content">
+    <div class="essay-title"> <center><h1 title="Essay about globalization">Globalization</h1></center> </div>
+    <div class="index">
+        <img class="main_img" src="{{url_for('static', filename = 'image/globalization.jpg')}}" alt="Globalization" width="400" height="250">
+        <fieldset>
+            <legend>INDEX ::</legend>
+            <div class="index-content">
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t1">Introduction</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t2">Global interpretation</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t3">Global activities</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t4">Pros and cons</a><br>
+                &emsp; <span class="index-bullet">&#9673</span>&emsp;<a href="#t5">Conclusion</a><br>
+            </div>
+        </fieldset>
+    </div> <br>
+    <div class="essay-body">
+        <h2 id="t1">Introduction:</h2><br>
+        <p>&emsp;&emsp;The promise of the computer bloomer who said a thousand years ago, "All citizens in universe are our relations/friends" is coming true today. Today everything is coming under one umbrella so that every event that takes place in the corner of the world affects all the countries of the world. The nations of the world, the streams of the world, are forced to shore up together. In this article we will look at the globalization that is creating tremendous change, ups and downs in the social, economic and cultural habits of the people. </p> <br>
+        <h2 id="t2">Global interpretation:</h2><br>
+        <p>&emsp;&emsp;Globalization is the integration of people,
+            <img class="main_img" src="{{url_for('static', filename = 'image/global.jpg')}}" alt="interpretation" width="350" height="200">
+            governments, and businesses around the world with the help of advanced information technology. Globalization means that man and objects operate freely around the world. </p> <br>
+        <h2 id="t3">Global activities:</h2><br>
+        <p>&emsp;&emsp;Trade relations between Europe and Asia date back thousands of years. People and companies in other countries began to increase their investment after World War I. Foreign investment has increased 20-fold since 1950. Foreign investment doubled between 1997 and 1999 alone, showing the pace of globalization. </p> <br>
+        <p>&emsp;&emsp;Since the Government of India adopted the liberal economic market in 1991, many foreign companies have poured billions into India. Indian companies are subjugating many companies in the West. All national companies and individuals invest in the stock market. </p><br>
+        <p>&emsp;&emsp;It is noteworthy that forex trading that takes place through the internet without going face to face is currently having huge consequences in daily life. </p><br>
+        <h2 id="t4">Pros and cons:</h2><br>
+        <p>&emsp;&emsp;Globalization will raise the living standards
+            <img class="main_img" src="{{url_for('static', filename = 'image/globalcons.jpg')}}" alt="Cons and pros" width="400" height="200">
+            of highly productive people. The price of consumer goods will fall due to global competition. The open economy brings new ideas from abroad. Employment also increases. Other people in the world are also able to learn about the new technology and taste its benefits. </p><br>
+        <p>&emsp;&emsp;In western countries such as the United States, domestic workers are able to earn lower wages because of the availability of lower-wage workers due to globalization. Unemployment, salary cuts, etc. are facing. There is a perception that academics and the rich will benefit from globalization. Other world countries also fear that powerful countries like the United States will use this to exploit the economies of poor countries. </p><br>
+        <h2 id="t5">Conclusion:</h2><br>
+        <p>&emsp;&emsp;Everything in this world is subject to change. The old is gone; And new influxes are also taking place over time. Globalization is one of them. So if we oppose this, we will be isolated from the rest of the world. The result of globalization is that even commonwealth countries like China are encouraging their students to learn other languages. </p> <br>
+        <center><q>Let's live with the world! Let's get a number of hikes!</q></center>
+    </div>
+</div>
+
+{% endblock content %}

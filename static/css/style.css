@@ -1,0 +1,593 @@
+body{
+    /*background-color: rgb(54, 54, 54);*/
+    background: linear-gradient(to right , rgb(92, 91, 91), rgb(0,0,0));
+}
+/*------------------- navbar ---------------------*/
+#navbar-brand{
+    color: white;
+    position: relative;
+}
+.navigation .navbar {
+    background: linear-gradient(to right, rgb(92, 91, 91), rgb(0, 0, 0)) ;   
+    padding-bottom: 0;
+    position: relative;
+    font-family: "Montserrat";
+}
+.navigation .navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-decoration: underline;
+    color: #fff;
+    position: relative;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+}
+.navigation .navbar .nav-item .nav-link {
+    outline: none !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color:#fff;
+    text-decoration: none;
+    font-family: "Montserrat";
+    padding: 20px;
+    position: relative;
+}
+#navcontent{
+    text-align: center;
+    position: relative;
+}
+.navigation .navbar .nav-item .nav-link:hover, .nav-link:focus {
+    text-decoration: underline;
+}
+.navigation /*.search-form*/ .form-control { 
+    padding-left: 30px;
+    border: transparent;
+    height: 44px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    color: #fff;
+    position: relative;
+}
+.form-control{
+    background: none !important;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+.form-control:focus {
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/*.fas{
+    color: white;
+    margin-left: 300px;
+}*/
+.navigation .search-form /*.fas*/ {
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.2rem;
+    right: 0;
+}
+/*-------------footer--------------*/
+footer {
+    padding: 7em 0; 
+    height: 400px;
+}  
+.footer {
+    background: rgb(0,0,0);
+}
+.footer a {
+    color: #a3de83; 
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.3); 
+}
+.footer .footer-heading {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer .footer-heading .logo {
+    color: #fff; 
+}
+/*.footer-07 .menu {
+    margin-bottom: 30px; 
+}*/
+.footer .menu a {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none; 
+}
+.footer .ftco-footer-social li a {
+    background: transparent;
+    border: 1px solid #a3de83; 
+}
+/*----------sigin-form---------*/
+.login-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: none
+}
+.loginform{
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    border-radius: 20px;
+}
+.loginform input[type="text"],
+.loginform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(156, 156, 156);
+}
+
+.loginform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+.loginform input[type="text"]:hover,
+.loginform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.loginform input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.loginform input[type="submit"]:hover{
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+.foot p, a{
+    color: rgb(156, 156, 156);
+}
+.foot hr{
+    color: rgb(92, 91, 91);
+}
+.flash-msg{
+    background-color: #191919;
+    border: none;
+}
+/*----------signup-form---------*/
+.signup-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    border: none
+}
+.signupform{
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.signupform input[type="text"],
+.signupform input[type = "email"],
+.signupform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(156, 156, 156);
+}
+
+.signupform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+.signupform input[type="text"]:hover,
+.signupform input[type = "email"]:hover,
+.signupform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.signupform input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.signupform input[type="submit"]:hover {
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+/*----------signout-form---------*/
+.signout-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    border: none
+}
+.signoutform{
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.signoutform input[type="text"],
+.signoutform input[type = "email"],
+.signoutform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(156, 156, 156);
+}
+
+.signoutform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+.signoutform input[type="text"]:hover,
+.signoutform input[type = "email"]:hover,
+.signoutform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.signoutform input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.signoutform input[type="submit"]:hover {
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+/*---------------carousel -------------*/
+.carousel-caption{
+    color: rgb(153, 11, 153);
+    font-family: forte;
+    font-weight: 30px;
+    text-align: left;
+    left: 0;
+    bottom: 5px;
+    /*top: 50%; */
+    padding:10px;
+    width: 100%;
+}
+.carousel-caption p{
+    position: relative;
+    color: rgb(172, 62, 62);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+/*-------------kinds  of essays--------------*/
+.headkind{
+    text-align: center;
+    color: rgb(7, 187, 133);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    position: relative;
+}
+/*-------------card------------*/
+section{
+    margin:0;
+    width:100%;
+    height:100%;
+}
+section .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+section .column {
+    width:330px;
+    display:inline-block;
+    padding: 50px;
+    margin-right: 112px;
+}
+section .column .card {
+  position:relative;
+  overflow:hidden;
+  width: 350px;
+  margin:0 auto;
+  background:#262626;
+  padding: 20px;
+  border-radius: 10px;
+  text-align:center;
+  box-shadow:0 10px 10px rgba(90, 90, 90, 0.596)
+}
+section .column .card .layer {
+  z-index:1;
+  position:absolute;
+  top:calc(100% - 2px);
+  height:100%;
+  width:100%;
+  left:0;
+  background:linear-gradient(to left , #2ecc71, #3498db);
+  transition:0.5s;
+  
+}
+section .column .card .card-body {
+  z-index:2; 
+  position:relative;
+}
+section .column .card:hover  .layer{
+  top:0;
+}
+section .column .card .card-body p {
+  font-size:14px;
+  line-height:24px;
+  color:#fff;
+  
+}
+section .column .card .card-body .image {
+  width:100px; height:100px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+  border: 4px solid white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  
+}
+section .column .card .content{
+font-size:18px;
+color:white;
+}
+section .column .card .card-body{
+font-size:18px;
+color:rgb(187, 8, 187);
+  transition:0.5s;
+}
+section .column .card:hover .card-body{
+  color:white;
+  position:relative
+}
+section .column .card:hover .card-body h5{
+  color:black;
+  position:relative
+}
+section .card-title{
+    font-family: forte;
+}
+/*-----------article / aside---------------*/
+article, aside{
+    position: relative;
+    font-family: comic;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*------------essay topics------------*/
+.essaytopic{
+    margin: auto;  
+}
+.container:after {
+    clear: both;
+ }
+.column {
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.essay_topic_bullet{
+    color: white;
+}
+dt{
+    color: #00ff6a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+dd{
+    color: white;
+}
+dd a{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 17px;
+}
+dd a:hover{
+    color: #0ccbd1;
+    text-decoration: underline;
+}
+dd a:active{
+    color: white;
+}
+dd a:focus{
+    color: #17d867;
+}
+/*------------- Essay ------------*/
+.essay-content{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.essay-title{
+    color: #2ecc71;
+    font-family: comic;
+    text-transform: uppercase;
+}
+fieldset{
+    width: 35%; 
+    border: solid; 
+    border-width: 2px; 
+    border-radius: 10px;
+    padding: 10px;
+    border-color: rgb(209, 207, 207);
+    border-style: dotted;
+    margin-right: 100px;
+    
+}
+legend{
+    color: #1ada6a;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.index-content a{
+    color: white;
+}
+.index-content a:hover{
+    color: #0ccbd1;
+}
+.index-content a:active{
+    color: #1ada6a;
+}
+.essay-body h2{
+    color: #1ada6a;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: #3498db;
+}
+.essay-body p{
+    color: white;
+    font-style: inherit;
+    font-family: monospace;
+    font-size: 20px;
+}
+.essay-quotes{
+    color: #0ccbd1;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 19px;
+}
+.index-bullet{
+    color: white;
+}
+.main_img{
+    float: right;
+    border: 2px #2ecc71 solid;
+    margin: 0px 0px 0px 0px;
+}
+.inessay-link{
+    color: #0ccbd1;
+}
+.inessay-link:hover{
+    text-decoration: none;
+    color: #00ff6a;
+}
+.inessay-link:active{
+    color: #17d867;
+}
+/*--------------How to ------------------*/
+.how_to_content{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+.how_to_title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #2ecc71;
+    font-family: forte;
+}
+.how_to_sub{
+    color: #2ecc71;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: #2ecc71;
+    font-weight: bold;
+}
+.how_to_bullet{
+    color: white;
+}
+.how_to_para{
+    color: white;
+    font-family: monospace;
+    font-size: 21px;
+}
